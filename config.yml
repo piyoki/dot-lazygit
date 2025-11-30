@@ -4,9 +4,9 @@ git:
   merging:
     manualcommit: false
   skiphookprefix: WIP
-  paging:
-    colorArg: always
-    pager: delta --dark --paging=never --24-bit-color=never --theme="OneHalfDark"
+  pagers:
+    - colorArg: always
+      pager: delta --dark --paging=never --24-bit-color=never --theme="OneHalfDark"
 gui:
   commitlength:
     show: true
@@ -16,16 +16,16 @@ gui:
   theme:
     lightTheme: false
     activeBorderColor:
-      - '#ccccff'
+      - "#ccccff"
       - bold
     inactiveBorderColor:
-      - '#393A3D'
+      - "#393A3D"
     optionsTextColor:
-      - '#ccccff'
+      - "#ccccff"
     selectedLineBgColor:
-      - '#262626'
+      - "#262626"
     selectedRangeBgColor:
-      - '#ccccff'
+      - "#ccccff"
 reporting: "off"
 splashupdatesindex: 0
 startuppopupversion: 1
